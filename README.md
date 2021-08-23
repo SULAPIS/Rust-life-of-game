@@ -13,6 +13,11 @@ edit模式下按 Space 键改变细胞状态
 
 s 键改变计算速度
 
+## Use Cargo to build
+```
+cargo build
+```
+
 ## play！
 ```
 cargo run

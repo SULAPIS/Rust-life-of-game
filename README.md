@@ -1,6 +1,8 @@
 # Rust-life-of-game
 rust编写的命令行生命游戏/Command line life of game written by rust
 
+![1.png](https://github.com/SULAPIS/Rust-life-of-game/blob/main/1.png)
+
 ## 指南
 
 在calculates模式下按 Esc 退出程序

@@ -18,12 +18,15 @@ mod world;
 
 fn main() {
     let a = size().unwrap();
+    
+    // world size
     let mut world = world::World::new(100, 150, (a.1 - 1).into(), (a.0 / 2).into());
 
+    //random cell
     for _ in 0..2500 {
         world.set_cell_state(
             rand::thread_rng().gen_range(0..100),
-            rand::thread_rng().gen_range(0..100),
+            rand::thread_rng().gen_range(0..150),
         );
     }
     let mut stdout = io::stdout();
